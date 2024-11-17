@@ -16,10 +16,10 @@ See [MUI TextField API](https://mui.com/material-ui/api/text-field/) for TextFie
 | delay    | `number`                             | 500        | The delay on the debounce in milliseconds                            |
 | onChange | `(value: string) => void`            | -          | The callback to call after the delay timeout once editing has ceased |
 | value    | `string`                             | -          | The value of the field                                               |
-| variant  | `'filled' | 'outlined' | 'standard'` | 'outlined' | The text field variant to use                                        |
+| variant  | `'filled', 'outlined' or 'standard'` | 'outlined' | The text field variant to use                                        |
 
 ## Example
-```
+```ts
 import * as React from "react";
 import { useCallback, useState, useEffect } from "react";
 import { Search } from "@mui/icons-material";

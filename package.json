@@ -1,6 +1,6 @@
 {
   "name": "@mattyreacts/debouncetextfield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A debounced text field based on @mui/material/TextField. The onChange callback is not called until the user has stopped entering text for a period of time.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
