@@ -16,7 +16,6 @@ See [MUI TextField API](https://mui.com/material-ui/api/text-field/) for TextFie
 | delay    | `number`                             | 500        | The delay on the debounce in milliseconds                            |
 | onChange | `(value: string) => void`            | -          | The callback to call after the delay timeout once editing has ceased |
 | value    | `string`                             | -          | The value of the field                                               |
-| variant  | `'filled', 'outlined' or 'standard'` | 'outlined' | The text field variant to use                                        |
 
 ## Example
 ```ts
